@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html xmlns:th="http://www.thymeleaf.org/">
 
 <body>
 <form method="post">
@@ -8,6 +8,9 @@
 </label>
 <button type="submit">Submit</button>
 </form>
+
+<span th:text="${msg}"></span>
+
 </body>
 
 </html>
